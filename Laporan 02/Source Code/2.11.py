@@ -1,5 +1,6 @@
-aName = input("Nama: ")
-myNim = input("Nim: ")
+aName = input("Nama: ")  # Input nama
+myNim = int(input("Nim: "))  # Input nim
 
-print(aName,myNim)
-print(aName,myNim, sep="-", end=".")
+print(aName, myNim)  # Menampilkan nama dan nim
+print(aName, myNim, sep="-", end=".")
+print("%s mempunyai NIM %i" % (aName, myNim))
