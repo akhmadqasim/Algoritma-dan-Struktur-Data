@@ -8,5 +8,3 @@ print("Harga sebuah %(item)s adalah %(harga)7.1f rupiah" % itemdict)  # Menampil
 
 # %+10s adalah padding untuk menambahkan spasi sebanyak 10 karakter
 # %5.2f adalah format float dengan 5 karakter total dan 2 karakter dibelakang koma
-nama = "John"
-print("Halo, " + nama + "!")
