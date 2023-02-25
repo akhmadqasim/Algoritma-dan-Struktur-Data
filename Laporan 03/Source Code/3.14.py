@@ -15,5 +15,5 @@ print(myFraksi)  # Menampilkan objek myFraksi
 
 x = Fraksi(1, 2)  # Membuat objek x dengan nilai top = 1 dan bottom = 2
 y = Fraksi(2, 3)  # Membuat objek y dengan nilai top = 2 dan bottom = 3
-print(x + y)  # Terdapat error karena
+print(x + y)  # Terdapat error karena tidak ada fungsi __add__ yang didefinisikan
 print(x == y)  # Menampilkan objek x == y
