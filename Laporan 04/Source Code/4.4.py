@@ -1,6 +1,5 @@
 import time  # Mengimport modul time
 
-
 # Ini termasuk Notasi Big O dengan Notasi O(n^2)
 def sumOfY(n):  # Membuat fungsi sumOfY dengan parameter n
     start = time.time()  # Membuat variabel start dengan nilai waktu saat ini
