@@ -67,14 +67,14 @@ class OrderedList:
         return count
 
 
-mylist = OrderedList()
-mylist.add(31)
-mylist.add(77)
-mylist.add(17)
-mylist.add(93)
-mylist.add(26)
-mylist.add(54)
+mylist = OrderedList()  # Membuat objek mylist dengan nilai OrderedList()
+mylist.add(31)  # Menambahkan nilai 31 ke dalam mylist
+mylist.add(77)  # Menambahkan nilai 77 ke dalam mylist
+mylist.add(17)  # Menambahkan nilai 17 ke dalam mylist
+mylist.add(93)  # Menambahkan nilai 93 ke dalam mylist
+mylist.add(26)  # Menambahkan nilai 26 ke dalam mylist
+mylist.add(54)  # Menambahkan nilai 54 ke dalam mylist
 
-print(mylist.size())
-print(mylist.search(93))
-print(mylist.search(100))
+print(mylist.size())  # Menampilkan panjang dari mylist
+print(mylist.search(93))  # Menampilkan apakah nilai 93 ada di dalam mylist
+print(mylist.search(100))  # Menampilkan apakah nilai 100 ada di dalam mylist

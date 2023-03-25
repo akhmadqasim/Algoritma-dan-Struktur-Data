@@ -21,14 +21,14 @@ class Deque:
         return len(self.items)
 
 
-d = Deque()
-print(d.isEmpty())
-d.addRear(4)
-d.addRear('dog')
-d.addFront('cat')
-d.addFront(True)
-print(d.size())
-print(d.isEmpty())
-d.addRear(8.4)
-print(d.removeRear())
-print(d.removeFront())
+d = Deque()  # Membuat objek d dengan nilai Deque()
+print(d.isEmpty())  # Menampilkan apakah d kosong
+d.addRear(4)  # Menambahkan nilai 4 ke dalam d
+d.addRear('dog')  # Menambahkan nilai 'dog' ke dalam d
+d.addFront('cat')  # Menambahkan nilai 'cat' ke dalam d
+d.addFront(True)  # Menambahkan nilai True ke dalam d
+print(d.size())  # Menampilkan panjang dari d
+print(d.isEmpty())  # Menampilkan apakah d kosong
+d.addRear(8.4)  # Menambahkan nilai 8.4 ke dalam d
+print(d.removeRear())  # Menampilkan nilai yang dihapus dari d
+print(d.removeFront())  # Menampilkan nilai yang dihapus dari d

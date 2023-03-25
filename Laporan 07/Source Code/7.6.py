@@ -65,27 +65,27 @@ class UnorderedList:
             previous.setNext(current.getNext())
 
 
-mylist = UnorderedList()
+mylist = UnorderedList()  # Membuat objek mylist dengan nilai UnorderedList()
 
-mylist.add(31)
-mylist.add(77)
-mylist.add(17)
-mylist.add(93)
-mylist.add(26)
-mylist.add(54)
+mylist.add(31)  # Menambahkan nilai 31 ke dalam mylist
+mylist.add(77)  # Menambahkan nilai 77 ke dalam mylist
+mylist.add(17)  # Menambahkan nilai 17 ke dalam mylist
+mylist.add(93)  # Menambahkan nilai 93 ke dalam mylist
+mylist.add(26)  # Menambahkan nilai 26 ke dalam mylist
+mylist.add(54)  # Menambahkan nilai 54 ke dalam mylist
 
-print(mylist.size())
-print(mylist.search(93))
-print(mylist.search(100))
+print(mylist.size())  # Menampilkan panjang dari mylist
+print(mylist.search(93))  # Menampilkan apakah 93 ada di dalam mylist
+print(mylist.search(100))  # Menampilkan apakah 100 ada di dalam mylist
 
-mylist.add(100)
-print(mylist.search(100))
-print(mylist.size())
+mylist.add(100)  # Menambahkan nilai 100 ke dalam mylist
+print(mylist.search(100))  # Menampilkan apakah 100 ada di dalam mylist
+print(mylist.size())  # Menampilkan panjang dari mylist
 
-mylist.remove(54)
-print(mylist.size())
-mylist.remove(93)
-print(mylist.size())
-mylist.remove(31)
-print(mylist.size())
-print(mylist.search(93))
+mylist.remove(54)  # Menghapus nilai 54 dari mylist
+print(mylist.size())  # Menampilkan panjang dari mylist
+mylist.remove(93)  # Menghapus nilai 93 dari mylist
+print(mylist.size())  # Menampilkan panjang dari mylist
+mylist.remove(31)  # Menghapus nilai 31 dari mylist
+print(mylist.size())  # Menampilkan panjang dari mylist
+print(mylist.search(93))  # Menampilkan apakah 93 ada di dalam mylist
