@@ -40,3 +40,5 @@ myWin.exitonclick()  # Menutup window ketika diklik
 #     t.color("green")
 #     tree(75, t)
 #     myWin.exitonclick()
+#
+# main()

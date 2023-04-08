@@ -2,7 +2,6 @@ from pythonds.basic.stack import Stack
 
 rStack = Stack()
 
-
 def toStr(n, base):
     convertString = "0123456789ABCDEF"
     while n > 0:
