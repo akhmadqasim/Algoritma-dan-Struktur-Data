@@ -42,17 +42,18 @@ class BinHeap:
         self.percDown(1)
         return retval
 
-    def buildHeap(self, alist):
-        i = len(alist) // 2
-        self.currentSize = len(alist)
-        self.heapList = [0] + alist[:]
-        while (i > 0):
-            self.percDown(i)
-            i = i - 1
+    def buildHeap(self, alist):  # Membangun heap
+        i = len(alist) // 2  # Menentukan nilai i
+        self.currentSize = len(alist)  # Menentukan ukuran heap
+        self.heapList = [0] + alist[:]  # Menyalin isi alist ke heapList
+        while (i > 0):  # Melakukan perulangan jika i lebih dari 0
+            self.percDown(i)  # Memanggil fungsi percDown
+            i = i - 1  # Mengurangi nilai i
 
 
 bh = BinHeap()
-bh.buildHeap([9, 5, 6, 2, 3])
+bh.buildHeap([2, 4, 6, 3, 5])
+# bh.buildHeap([9, 5, 6, 2, 3])
 
 print(bh.delMin())
 print(bh.delMin())
